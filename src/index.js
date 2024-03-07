@@ -47,7 +47,7 @@ const Book = ({img, title, author}) => {
   const clickHandler = () =>{
   }
 
-  const compleExample= () =>{
+  const compleExample= (author) =>{
 
   };
 
