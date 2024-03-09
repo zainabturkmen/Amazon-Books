@@ -48,7 +48,7 @@ const Book = ({img, title, author}) => {
   }
 
   const compleExample= (author) =>{
-
+    console.log(author);
   };
 
   return (
