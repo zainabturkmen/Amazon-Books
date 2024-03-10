@@ -53,7 +53,7 @@ const Book = ({img, title, author}) => {
       <img src={img} />
       <h1>{title}</h1>
       <h4>{author}</h4>
-      <button type="button" onClick={clickHandler}>hehahu</button>
+      <button type="button" onClick={clickHandler}>Click me</button>
   </article>
   )
 }
