@@ -51,7 +51,7 @@ const Book = ({img, title, author}) => {
   return (
   <article className="book">
       <img src={img} />
-      <h1 onClick={clickHandler}>{title}</h1>
+      <h1 onClick={() => console.log("hey")}>{title}</h1>
       <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>Click me</button>
   </article>
