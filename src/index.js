@@ -2,32 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
  
 
-function Greeting(){
-  return (<>
-    <Heading1 />
-    <Link />
-    <Input />
-  </>);
+function BookList(){
+  return(
+    <section>
+      this a BookList
+    </section>
+  )
 };
-
-const Heading1 = () => {
-  return (
-   <h1 className="Hehe">hello world</h1>
-  )
-}
-
-const Link = () => {
-  return (
-    <a href="#">ding sing</a>
-  )
-}
-
-const Input = () => {
-  return (
-    <input placeholder="heheheh"/>
-  )
-}
-
 
 
 // const Greeting = () => {
@@ -35,4 +16,4 @@ const Input = () => {
 // };
 
 
-ReactDOM.render(<Greeting/>, document.getElementById("root"));
+ReactDOM.render(<BookList />, document.getElementById("root"));
