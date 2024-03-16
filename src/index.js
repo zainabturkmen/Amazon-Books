@@ -12,7 +12,7 @@ import ReactDOM from "react-dom";
 
 
 const Greeting = () => {
-  return React.createElement("h1", {}, React.createElement("h1", {}, "hello world"));
+  return React.createElement("div", {}, React.createElement("h1", {}, "hello world"));
 };
 
 
