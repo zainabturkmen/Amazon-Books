@@ -1,17 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
  
-function Greeting(){
-  return (
-    <div>
-      <h1>Helo world</h1>
-    </div>
-  )
-};
+
+// function Greeting(){
+//   return (
+//     <div>
+//       <h1>Helo world</h1>
+//     </div>
+//   )
+// };
 
 
 const Greeting = () => {
-  return React.createElement("h1", {}, "hello world")
+  return React.createElement("h1", {}, React.createElement("h1", {}, "hello world"));
 };
 
 
