@@ -7,7 +7,7 @@ function Greeting(){
       <h1>Helo world</h1>
     </div>
   )
-}
+};
 
 const Greeting = () => {
   return React.createElement("h1", {}, "hello world")
