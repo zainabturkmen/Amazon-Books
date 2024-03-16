@@ -5,15 +5,16 @@ import ReactDOM from "react-dom";
 function BookList(){
   return(
     <section>
-      this a BookList
+      <Book />
     </section>
   )
 };
 
 
-// const Greeting = () => {
-//   return React.createElement("div", {}, React.createElement("h1", {}, "hello world"));
-// };
-
+const Book = () => {
+  return <article>
+    this is a book
+  </article>
+}
 
 ReactDOM.render(<BookList />, document.getElementById("root"));
