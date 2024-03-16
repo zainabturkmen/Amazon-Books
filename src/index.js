@@ -9,8 +9,10 @@ function Greeting(){
   )
 };
 
+
 const Greeting = () => {
   return React.createElement("h1", {}, "hello world")
 };
+
 
 ReactDOM.render(<Greeting/>, document.getElementById("root"));
