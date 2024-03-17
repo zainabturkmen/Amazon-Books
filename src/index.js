@@ -13,7 +13,7 @@ function BookList(){
   return(
     <section className="booklist">
       <Book job="developer" />
-      <Book title="random title" />
+      <Book title="random title" number={22}/>
     </section>
   )
 };
