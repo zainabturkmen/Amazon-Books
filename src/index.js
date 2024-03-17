@@ -9,7 +9,7 @@ const firstBook = {
   img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL600_SR600,400_.jpg",
   title: "I Love You To The Moon And Back",
   Author: "Amelia Hepworth"
-}
+};
 
 const Author = 
 const title =
