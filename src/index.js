@@ -12,17 +12,20 @@ const image = "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_
 function BookList(){
   return(
     <section className="booklist">
-      <Book />
+      <Book job="developer" />
+      <Book title="random title" />
     </section>
   )
 };
 
 const Book = (props) => {
+  console.log(props);
   return (
   <article className="book">
       <img src={image} />
       <h1>{title}</h1>
       <h4>{Author}</h4>
+      {/* {console.log(props)} */}
   </article>
   )
 }
