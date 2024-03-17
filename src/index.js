@@ -25,7 +25,6 @@ const Book = (props) => {
       <img src={image} />
       <h1>{title}</h1>
       <h4>{Author}</h4>
-      {/* {console.log(props)} */}
   </article>
   )
 }
