@@ -25,9 +25,12 @@ function BookList(){
       title={firstBook.title} 
       author={firstBook.Author} 
       >
-        <p></p>
+        <p>lorem</p>
       </Book>
-      <Book img={secondBook.img} title={secondBook.title} author={secondBook.Author} />
+      <Book 
+      img={secondBook.img} 
+      title={secondBook.title} 
+      author={secondBook.Author} />
     </section>
   )
 };
