@@ -11,11 +11,6 @@ const firstBook = {
   Author: "Amelia Hepworth"
 };
 
-const Author = 
-const title =
-const image = 
-
-
 function BookList(){
   return(
     <section className="booklist">
