@@ -6,12 +6,13 @@ import "./index.css"
 
 // setup vars
 const firstBook = {
+  img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL600_SR600,400_.jpg",
   
 }
 
 const Author = "Amelia Hepworth";
 const title = "I Love You To The Moon And Back"
-const image = "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL600_SR600,400_.jpg";
+const image = 
 
 
 function BookList(){
