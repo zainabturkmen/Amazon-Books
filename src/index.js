@@ -25,6 +25,9 @@ const Book = (props) => {
       <img src={image} />
       <h1>{title}</h1>
       <h4>{Author}</h4>
+      <p>{props.job}</p>
+      <p>{props.title}</p>
+      <p>{props.number}</p>
   </article>
   )
 }
