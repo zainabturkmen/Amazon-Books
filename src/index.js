@@ -14,6 +14,8 @@ function BookList(){
 const Book = () => {
   return <article>
     <Image />
+    <Title />
+    <Author />
   </article>
 }
 
@@ -28,4 +30,10 @@ const Title = () => {
     <h1>I Love You To The Moon And Back</h1>
   )
 };
+
+const Author = () => {
+  return(
+    <h4>Amelia Hepworth</h4>
+  )
+}
 ReactDOM.render(<BookList />, document.getElementById("root"));
