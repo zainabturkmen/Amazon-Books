@@ -5,6 +5,9 @@ import ReactDOM from "react-dom";
 import "./index.css"
 
 // setup vars
+const firstBook = {
+  
+}
 
 const Author = "Amelia Hepworth";
 const title = "I Love You To The Moon And Back"
