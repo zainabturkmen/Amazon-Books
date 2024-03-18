@@ -21,9 +21,6 @@ const books = [
 
 ];
 
-const ourNames = books.map((nami) => {
-  return <Book />
-})
 
 function BookList(){
   return(
