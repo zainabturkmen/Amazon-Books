@@ -45,7 +45,7 @@ const Book = ({img, title, author}) => {
   // Attributr, eventHandler
   // onClick, onMouseOver
   const clickHandler = () =>{
-
+    alert ("hello world")
   }
 
   return (
