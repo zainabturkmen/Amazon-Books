@@ -35,13 +35,14 @@ function BookList(){
   )
 };
 
-const Book = ({img, title, author}) => {
+const Book = ({img, title, author, children}) => {
   // const {img, title, author} = props
   return (
   <article className="book">
       <img src={img} />
       <h1>{title}</h1>
       <h4>{author}</h4>
+      {children}
   </article>
   )
 }
