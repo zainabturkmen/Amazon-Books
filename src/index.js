@@ -44,7 +44,9 @@ function BookList(){
 const Book = ({img, title, author}) => {
   // Attributr, eventHandler
   // onClick, onMouseOver
-  const clickHandler = () =>{
+  const clickHandler = (e) =>{
+    console.log(e);
+    console.log(e.target);
   }
 
   const compleExample= (author) =>{
