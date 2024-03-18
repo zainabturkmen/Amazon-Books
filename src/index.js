@@ -17,6 +17,11 @@ const books = [
     img: "https://images-na.ssl-images-amazon.com/images/I/81959ym88cL._AC_UL600_SR600,400_.jpg",
     title: "Llama Llama Easter Egg",
     Author: "Anna Dewdney"
+  },
+    {
+    img: "https://images-na.ssl-images-amazon.com/images/I/81959ym88cL._AC_UL600_SR600,400_.jpg",
+    title: "Llama Llama Easter Egg",
+    Author: "Anna Dewdney"
   }
 
 ];
@@ -26,7 +31,6 @@ function BookList(){
   return(
     <section className="booklist">
       {books.map((book)=> {
-        const {img, title, author} = book
         return <Book book={book}></Book>
       })}
     </section>
