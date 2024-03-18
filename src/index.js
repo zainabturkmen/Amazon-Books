@@ -43,6 +43,7 @@ function BookList(){
 
 const Book = ({img, title, author}) => {
   // Attributr, eventHandler
+  // onClick, onMouseOver
   return (
   <article className="book">
       <img src={img} />
