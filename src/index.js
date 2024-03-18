@@ -29,7 +29,7 @@ function BookList(){
       title={books[0].title} 
       author={books[0].Author} 
       ></Book>
-      
+
       <Book 
       img={books[1].img} 
       title={books[1].title} 
@@ -37,6 +37,7 @@ function BookList(){
     </section>
   )
 };
+
 
 const Book = ({img, title, author, children}) => {
   // const {img, title, author} = props
