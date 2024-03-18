@@ -21,10 +21,15 @@ const books = [
 
 ];
 
+const name = ["bob", "susi", "anni", "shahir", "Yousuf"];
+const ourNames = name.map((nami, imdex) => {
+  
+})
+
 function BookList(){
   return(
     <section className="booklist">
-      <Book 
+      {/* <Book 
       img={books[0].img} 
       title={books[0].title} 
       author={books[0].Author} 
@@ -33,7 +38,8 @@ function BookList(){
       <Book 
       img={books[1].img} 
       title={books[1].title} 
-      author={books[1].Author} />
+      author={books[1].Author} /> */}
+      {name}
     </section>
   )
 };
