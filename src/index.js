@@ -1,70 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
- 
-// css
-import "./index.css"
-
-// setup vars
-const books = [
-
-    {
-      id: 1,
-    img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL600_SR600,400_.jpg",
-    title: "I Love You To The Moon And Back",
-    author: "Amelia Hepworth"
-  },
-  
-    {
-      id: 2,
-    img: "https://images-na.ssl-images-amazon.com/images/I/81959ym88cL._AC_UL600_SR600,400_.jpg",
-    title: "Llama Llama Easter Egg",
-    author: "Anna Dewdney"
-  },
-    {
-      id:3,
-    img: "https://images-na.ssl-images-amazon.com/images/I/81QkbRlPEEL._AC_UL600_SR600,400_.jpg",
-    title: "Bluey: Easter",
-    author: "Penguin Young Readers Licenses"
-  }
-
-];
 
 
-function BookList(){
-  return(
-    <section className="booklist">
-      {books.map((book)=> {
-        return <Book  key = {book.id} {...book}></Book>
-      })}
+const BookList = () => {
+  return (
+    <section>
+      <h1>hello</h1>
     </section>
   )
 };
 
+ 
 
-const Book = ({img, title, author}) => {
-  // Attributr, eventHandler
-  // onClick, onMouseOver
-  const clickHandler = (e) =>{
-    console.log(e);
-    console.log(e.target);
-    alert("hello world");
-  }
 
-  const compleExample= (author) =>{
-    console.log(author);
-  };
-
-  return (
-  <article className="book" onMouseOver={()=> {
-    console.log(title);
-  }}>
-      <img src={img} />
-      <h1 onClick={() => console.log(title)}>{title}</h1>
-      <h4>{author}</h4>
-      <button type="button" onClick={clickHandler}>Click me</button>
-      <button type="button" onClick={() => compleExample(author)}>complex example</button>
-  </article>
-  )
-}
-
-ReactDOM.render(<BookList />, document.getElementById("root"));
