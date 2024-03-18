@@ -28,9 +28,8 @@ function BookList(){
       img={books[0].img} 
       title={books[0].title} 
       author={books[0].Author} 
-      >
-        <p>lorem</p>
-      </Book>
+      ></Book>
+      
       <Book 
       img={books[1].img} 
       title={books[1].title} 
