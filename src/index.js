@@ -24,7 +24,17 @@ const books = [
 function BookList(){
   return(
     <section className="booklist">
-   
+      <Book 
+      img={books[0].img} 
+      title={books[0].title} 
+      author={books[0].Author} 
+      >
+        <p>lorem</p>
+      </Book>
+      <Book 
+      img={books[1].img} 
+      title={books[1].title} 
+      author={books[1].Author} />
     </section>
   )
 };
