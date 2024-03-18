@@ -1,18 +1,51 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// Css
+import styleCss from "./index.css"
+
+const books = [
+
+    {
+        img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL600_SR600,400_.jpg",
+        title: "I Love You To The Moon And Back",
+        author: "Amelia Hepworth",
+    },
+
+    {
+      id: 2,
+    img: "https://images-na.ssl-images-amazon.com/images/I/81959ym88cL._AC_UL600_SR600,400_.jpg",
+    title: "Llama Llama Easter Egg",
+    author: "Anna Dewdney"
+  },
+
+    {
+      id:3,
+    img: "https://images-na.ssl-images-amazon.com/images/I/81QkbRlPEEL._AC_UL600_SR600,400_.jpg",
+    title: "Bluey: Easter",
+    author: "Penguin Young Readers Licenses"
+  }
+
+];
+
+
 
 const BookList = () => {
   return (
-    <section>
-    </section>
+    <section className="booklist">{books.map((book) => {
+      return <Book book = {book}/>
+    })}</section>
   )
 };
 
-const Book = () => {
+
+const Book = (props) => {
+  const {img, title, author} = props.book
   return (
-    <article>
-      <img />
+    <article className="book">
+      <img src={img}/>
+      <h1>{title}</h1>
+      <h4>{author}</h4>
     </article>
   )
 }
