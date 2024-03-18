@@ -47,6 +47,10 @@ const Book = ({img, title, author}) => {
   const clickHandler = () =>{
   }
 
+  const compleExample= () =>{
+
+  };
+
   return (
   <article className="book">
       <img src={img} />
