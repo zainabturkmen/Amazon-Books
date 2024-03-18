@@ -45,15 +45,15 @@ const Book = ({img, title, author}) => {
   // Attributr, eventHandler
   // onClick, onMouseOver
   const clickHandler = () =>{
-    alert ("hello world")
   }
 
   return (
   <article className="book">
       <img src={img} />
-      <h1 onClick={() => console.log("hey")}>{title}</h1>
+      <h1 onClick={() => console.log(title)}>{title}</h1>
       <h4>{author}</h4>
       <button type="button" onClick={clickHandler}>Click me</button>
+      <button type="button" onClick={}>complex example</button>
   </article>
   )
 }
