@@ -5,10 +5,17 @@ import ReactDOM from "react-dom";
 const BookList = () => {
   return (
     <section>
-      <h1>hello</h1>
     </section>
   )
 };
+
+const Book = () => {
+  return (
+    <article>
+      <img />
+    </article>
+  )
+}
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
