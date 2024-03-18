@@ -42,6 +42,7 @@ function BookList(){
 
 
 const Book = ({img, title, author}) => {
+  // Attributr, eventHandler
   return (
   <article className="book">
       <img src={img} />
