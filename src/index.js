@@ -47,6 +47,7 @@ const Book = ({img, title, author}) => {
   const clickHandler = (e) =>{
     console.log(e);
     console.log(e.target);
+    alert("hello world");
   }
 
   const compleExample= (author) =>{
