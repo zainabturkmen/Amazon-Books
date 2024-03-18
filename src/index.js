@@ -10,18 +10,18 @@ const books = [
     {
     img: "https://images-na.ssl-images-amazon.com/images/I/81mpSoJzv4L._AC_UL600_SR600,400_.jpg",
     title: "I Love You To The Moon And Back",
-    Author: "Amelia Hepworth"
+    author: "Amelia Hepworth"
   },
   
     {
     img: "https://images-na.ssl-images-amazon.com/images/I/81959ym88cL._AC_UL600_SR600,400_.jpg",
     title: "Llama Llama Easter Egg",
-    Author: "Anna Dewdney"
+    author: "Anna Dewdney"
   },
     {
-    img: "https://images-na.ssl-images-amazon.com/images/I/81959ym88cL._AC_UL600_SR600,400_.jpg",
-    title: "Llama Llama Easter Egg",
-    Author: "Anna Dewdney"
+    img: "https://images-na.ssl-images-amazon.com/images/I/81QkbRlPEEL._AC_UL600_SR600,400_.jpg",
+    title: "Bluey: Easter",
+    author: "Penguin Young Readers Licenses"
   }
 
 ];
