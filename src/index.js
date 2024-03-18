@@ -10,6 +10,7 @@ const BookList = () => {
   )
 };
 
+ReactDOM.render(<BookList />, document.getElementById("root"))
  
 
 
