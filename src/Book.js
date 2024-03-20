@@ -9,6 +9,6 @@ const Book = (props) => {
       <h4>{author}</h4>
     </article>
   )
-}
+};
 
 export default Book
