@@ -50,5 +50,8 @@ img{
 
 
 .title{
-    display: inline-block;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
