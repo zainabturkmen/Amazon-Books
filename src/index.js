@@ -26,7 +26,7 @@ const Title = () => {
       <h1 className="title">Amazon Books</h1>
     </div>
   )
-}
+};
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
