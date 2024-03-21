@@ -9,6 +9,7 @@ import Book from "./Book";
 const BookList = () => {
   return (
     <>
+    <Title />
     <section className="booklist">
       {books.map((book) => {
       return <Book key={book.id} book={book}/>
