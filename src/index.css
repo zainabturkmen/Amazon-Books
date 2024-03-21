@@ -31,7 +31,8 @@ img{
 
 .book{
     background: #fff;
-    padding: 1rem 0;
+    padding-top: 1.2em;
+    padding-bottom: .5em;
 }
 
 .book h1{

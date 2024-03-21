@@ -13,7 +13,7 @@ const BookList = () => {
     <section className="booklist">
       {books.map((book) => {
       return <Book key={book.id} book={book}/>
-    })};
+    })}
 
     </section>
     </>
