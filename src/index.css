@@ -17,7 +17,7 @@ img{
 .booklist{
     width: 90vw;
     max-width: 1170px;
-    margin: 5rem auto;
+    margin: 3rem auto;
     display: grid;
     gap: 1rem;
     text-align: center;
