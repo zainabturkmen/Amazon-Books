@@ -64,6 +64,18 @@ const books = [
     title: "Bad Therapy: Why the Kids Aren't Growing Up",
     author: "Abigail Shrier"
   },
+    {
+    id: 11,
+    img: "https://images-na.ssl-images-amazon.com/images/I/81VP91WWhSL._AC_UL600_SR600,400_.jpg",
+    title: "Somebunny Loves You: A Sweet and Silly",
+    author: "Rose Rossner"
+  },
+    {
+    id: 12,
+    img: "https://images-na.ssl-images-amazon.com/images/I/81uv7QtqJ0L._AC_UL600_SR600,400_.jpg",
+    title: "Little Blue Truck's Springtime: An Easter And",
+    author: "Alice Schertle"
+  },
 
 ];
 
