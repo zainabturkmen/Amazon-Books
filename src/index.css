@@ -47,3 +47,8 @@ img{
     letter-spacing: 0px;
     margin-top: 1em;
 }
+
+
+.title{
+    display: inline-block;
+}
