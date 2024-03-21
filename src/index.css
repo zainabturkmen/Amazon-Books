@@ -19,7 +19,7 @@ img{
     max-width: 1170px;
     margin: 5rem auto;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -31,8 +31,7 @@ img{
 
 .book{
     background: #fff;
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+    padding: 1rem 0;
 }
 
 .book h1{
