@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background: #ccdce9;
+    background: #c3c5c7;
     color: #222;
 }
 
@@ -54,5 +54,5 @@ img{
     font-size: 3em;
     margin-top: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(86, 38, 134);
+    color: #fff;
 }
