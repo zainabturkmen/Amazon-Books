@@ -56,3 +56,12 @@ img{
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
+
+.btn{
+    padding: .6em 1em;
+    font-size: .8em;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}

@@ -10,6 +10,7 @@ const BookList = () => {
   return (
     <>
     <Title />
+    <RightClickFunctionality />
     <section className="booklist">
       {books.map((book) => {
       return <Book key={book.id} book={book}/>
@@ -27,6 +28,16 @@ const Title = () => {
     </div>
   )
 };
+
+
+const RightClickFunctionality = () => {
+  return(
+    <div>
+      <button type="button" className="btn">Delete book</button>
+    </div>
+  )
+};
+
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
