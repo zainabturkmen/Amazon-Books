@@ -30,14 +30,6 @@ const Title = () => {
 };
 
 
-// const RightClickFunctionality = () => {
-//   return(
-//     <div className="right-click-popup">
-//       <button type="button" className="btn">Delete book</button>
-//     </div>
-//   )
-// };
-
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
