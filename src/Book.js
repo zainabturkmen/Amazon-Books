@@ -1,16 +1,24 @@
 import books from "./Books"
+import { useState } from "react";
 
 
 const Book = () => {
-  const [books, setBooks] = React.useState(books)
+  const [book, setBooks] = useState(books);
   return (
-    <article className="book">
-      {
-        books.map((book) => {
-          const {id, img, title, authoe} = book;
+    <>
+    {
+      book.map((myBook) => {
+        const {id, img, title, author} = myBook;
+         return (
+           <article className="book" key={id} >
+            <img>{img}</img>
+            <h1>{title}</h1>
+            <h4>{author}</h4>
+          </article>
+         )
         })
       }
-    </article>
+    </>
   )
 };
 
