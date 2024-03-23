@@ -11,7 +11,7 @@ const Book = () => {
         const {id, img, title, author} = myBook;
          return (
            <article className="book" key={id} >
-            <img>{img}</img>
+            <img src={img} />
             <h1>{title}</h1>
             <h4>{author}</h4>
           </article>
