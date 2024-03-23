@@ -10,7 +10,6 @@ const BookList = () => {
   return (
     <>
     <Title />
-    <RightClickFunctionality />
     <section className="booklist">
       {books.map((book) => {
       return <Book key={book.id} book={book}/>
@@ -21,6 +20,7 @@ const BookList = () => {
   )
 };
 
+
 const Title = () => {
   return(
     <div>
@@ -30,14 +30,13 @@ const Title = () => {
 };
 
 
-
-const RightClickFunctionality = () => {
-  return(
-    <div className="right-click-popup">
-      <button type="button" className="btn">Delete book</button>
-    </div>
-  )
-};
+// const RightClickFunctionality = () => {
+//   return(
+//     <div className="right-click-popup">
+//       <button type="button" className="btn">Delete book</button>
+//     </div>
+//   )
+// };
 
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
