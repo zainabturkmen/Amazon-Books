@@ -30,6 +30,7 @@ const Title = () => {
 };
 
 
+
 const RightClickFunctionality = () => {
   return(
     <div className="right-click-popup">
@@ -41,5 +42,4 @@ const RightClickFunctionality = () => {
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
-
 
