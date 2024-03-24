@@ -5,11 +5,6 @@ import { useState } from "react";
 const Book = () => {
   const [myBooks, setMyBooks] = useState(books);
 
-  const removeBooks = (id) => {
-    let newBooks = myBooks.filter((book) => book.id !== id)
-    setMyBooks(newBooks)
-  };
-
   return(
     <>
     {
@@ -20,7 +15,6 @@ const Book = () => {
             <img src={img} />
             <h1>{title}</h1>
             <h4>{author}</h4>
-            <button className="btn" onClick={() => removeBooks(id)}>remove books</button>
           </article>
         )
       })}
