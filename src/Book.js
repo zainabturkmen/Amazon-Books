@@ -6,7 +6,8 @@ const Book = () => {
   const [myBooks, setMyBooks] = useState(books);
 
   const removeBooks = (id) => {
-    setMyBooks()
+    let newBooks = myBooks.filter((book) => book.id !== id)
+    setMyBooks(newBooks)
   };
 
   return(

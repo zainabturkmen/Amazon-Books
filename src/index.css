@@ -58,11 +58,12 @@ img{
 }
 
 .btn{
-    padding: .6em 1em;
+    padding: .4em 1em;
     font-size: .8em;
     color: white;
-    background-color: black;
+    background-color: rgb(251, 121, 121);
     border: none;
     cursor: pointer;
-    display: inline-block
+    margin: .5em;
+    border-radius: 30px
 };
