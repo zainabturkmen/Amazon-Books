@@ -18,7 +18,7 @@ const Book = () => {
         )
       })
     }
-    <button className="btn" onClick={setMyBooks}>Clear items</button>
+    <button className="btn" onClick={setMyBooks}>remove books</button>
     </>
   )
 };
