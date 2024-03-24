@@ -26,8 +26,6 @@ const Title = () => {
   )
 };
 
-
-
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
 
