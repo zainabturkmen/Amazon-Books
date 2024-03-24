@@ -64,7 +64,6 @@ img{
     background-color: black;
     border: none;
     cursor: pointer;
-    /* display: none; */
     margin: 0 auto;
     display: flex;
     align-items: center;
