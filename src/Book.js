@@ -9,6 +9,7 @@ const Book = () => {
     let newPeople = myBooks.filter((book) => book.id !== id)
     setMyBooks(newPeople);
   };
+  
   return(
     <>
     {
