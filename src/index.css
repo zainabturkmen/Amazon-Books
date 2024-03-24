@@ -70,12 +70,13 @@ img{
 
 .btn-div{
 margin-top: 2em;
+height: 100px;
 }
 .link-btn{
-    padding: .8em 2em;
+    padding: .5em 2em;
     font-size: 1em;
     color: white;
     background-color: #222;
     text-decoration: none;
-    border: none;
+    border-radius: 10px;
 }
