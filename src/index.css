@@ -64,5 +64,6 @@ img{
     color: white;
     background-color: black;
     border: none;
-    cursor: pointer
+    cursor: pointer;
+    display: inline-block
 };
