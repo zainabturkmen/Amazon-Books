@@ -16,9 +16,8 @@ const Book = () => {
             <h4>{author}</h4>
           </article>
         )
-      })
-    }
-    <button className="btn" onClick={setMyBooks}>remove books</button>
+      })}
+    <button className="btn" onClick={() => setMyBooks([])}>remove books</button>
     </>
   )
 };

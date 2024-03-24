@@ -64,6 +64,5 @@ img{
     background-color: black;
     border: none;
     cursor: pointer;
-    /* visibility: hidden; */
-    display: none;
+    /* display: none; */
 }
