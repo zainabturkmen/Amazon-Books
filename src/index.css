@@ -65,4 +65,5 @@ img{
     border: none;
     cursor: pointer;
     /* display: none; */
+    margin: 0 auto;
 }
