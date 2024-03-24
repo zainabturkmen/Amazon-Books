@@ -68,9 +68,10 @@ img{
     border-radius: 30px
 };
 
-.btn1{
-    padding: .4em 1em;
+.link-btn{
+    padding: 1em;
     font-size: .8em;
     color: white;
     background-color: #222;
+    /* text-decoration: none; */
 }

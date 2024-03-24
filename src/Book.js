@@ -24,7 +24,7 @@ const Book = () => {
           </article>
         )
       })}
-      <button className="btn1" onClick={() => setMyBooks([])}></button>
+      <a href="#" className="link-btn" onClick={() => setMyBooks([])}>remove all books</a>
     </>
   )
 };
