@@ -21,6 +21,7 @@ img{
     display: grid;
     gap: 1rem;
     text-align: center;
+    justify-content: center;
 }
 @media screen and (min-width: 768px) {
     .booklist{
