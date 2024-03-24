@@ -8,7 +8,14 @@ const Book = () => {
     <>
     {
       myBooks.map((book) => {
-        const{id, img, title, author}
+        const{id, img, title, author} = book;
+        return (
+          <article className="book" key={id}>
+            <img src={img} />
+            <h1>{title}</h1>
+            <h4>{author}</h4>
+          </article>
+        )
       })
     }
     </>
