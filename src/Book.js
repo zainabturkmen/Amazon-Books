@@ -8,7 +8,7 @@ const Book = () => {
   const removBooks = (id) => {
     let newPeople = myBooks.filter((book) => book.id !== id)
     setMyBooks(newPeople);
-  }
+  };
   return(
     <>
     {
