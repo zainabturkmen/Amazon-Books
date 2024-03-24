@@ -5,10 +5,10 @@ import { useState } from "react";
 const Book = () => {
   const [myBooks, setMyBooks] = useState(books);
 
-  const removeBooks = () => {
-
+  const removeBooks = (id) => {
+    setMyBooks()
   };
-  
+
   return(
     <>
     {
