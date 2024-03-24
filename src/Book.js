@@ -6,8 +6,9 @@ const Book = () => {
   const [myBooks, setMyBooks] = useState(books);
 
   const removeBooks = () => {
-    
-  }
+
+  };
+  
   return(
     <>
     {
