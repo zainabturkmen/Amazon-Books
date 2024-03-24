@@ -63,12 +63,4 @@ img{
     color: white;
     background-color: black;
     border: none;
-    cursor: pointer;
-    display: block;
-    align-self: center;
-    justify-self: center;
-    /* margin: 0 auto; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
 }
