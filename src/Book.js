@@ -6,7 +6,7 @@ const Book = () => {
   const [myBooks, setMyBooks] = useState(books);
 
   const removBooks = (id) => {
-    let
+    let newPeople = myBooks.fill((book) => )
   }
   return(
     <>
