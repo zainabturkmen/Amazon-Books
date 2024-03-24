@@ -5,6 +5,9 @@ import { useState } from "react";
 const Book = () => {
   const [myBooks, setMyBooks] = useState(books);
 
+  const removBooks = (id) => {
+    let
+  }
   return(
     <>
     {
@@ -15,6 +18,7 @@ const Book = () => {
             <img src={img} />
             <h1>{title}</h1>
             <h4>{author}</h4>
+            <button className="btn" onClick={() => removBooks(id)}>remove books</button>
           </article>
         )
       })}
