@@ -14,7 +14,7 @@ const Book = () => {
             <img src={img} />
             <h1>{title}</h1>
             <h4>{author}</h4>
-            <button className="btn" onClick={() => s(id)}>remove books</button>
+            <button className="btn" onClick={() => removeBooks(id)}>remove books</button>
           </article>
         )
       })}
