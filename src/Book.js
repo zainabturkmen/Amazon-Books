@@ -8,8 +8,8 @@ const Book = () => {
   const removBooks = (id) => {
     let newPeople = myBooks.filter((book) => book.id !== id)
     setMyBooks(newPeople);
-  };
-  
+  }; 
+
   return(
     <>
     {
@@ -24,6 +24,7 @@ const Book = () => {
           </article>
         )
       })}
+      <button className="btn1" onClick={() => setMyBooks([])}></button>
     </>
   )
 };

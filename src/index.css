@@ -67,3 +67,10 @@ img{
     margin: .5em;
     border-radius: 30px
 };
+
+.btn1{
+    padding: .4em 1em;
+    font-size: .8em;
+    color: white;
+    background-color: #222;
+}
