@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { useState } from "react";
 
 // Css
 import styleCss from "./index.css"
@@ -25,6 +26,15 @@ const Title = () => {
     </div>
   )
 };
+
+const counter = () => {
+  const [value, setValue] = useState(0)
+
+  return(
+    <>
+    </>
+  )
+}
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
