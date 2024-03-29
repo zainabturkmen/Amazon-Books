@@ -71,6 +71,10 @@ img{
 .btn-div{
 margin-top: 2em;
 height: 100px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 .link-btn{
     padding: .5em 2em;
