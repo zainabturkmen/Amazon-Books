@@ -68,19 +68,3 @@ img{
     border-radius: 30px
 };
 
-.btn-div{
-margin-top: 2em;
-height: 100px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-}
-.link-btn{
-    padding: .5em 2em;
-    font-size: 1em;
-    color: white;
-    background-color: #222;
-    text-decoration: none;
-    border-radius: 10px;
-}
