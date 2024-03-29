@@ -46,7 +46,7 @@ const Counter = () => {
     </section>
     </>
   )
-}
+};
 
 ReactDOM.render(<BookList />, document.getElementById("root"))
  
