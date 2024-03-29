@@ -14,6 +14,7 @@ const BookList = () => {
     <section className="booklist">
       <Book />
     </section>
+    <Counter />
     </>
   )
 };
@@ -27,11 +28,20 @@ const Title = () => {
   )
 };
 
-const counter = () => {
+const Counter = () => {
   const [value, setValue] = useState(0)
+
+  
 
   return(
     <>
+    <section className="counter">
+      <h2>Start Counting</h2>
+      <h1>{value}</h1>
+      <button className="count-btn" onClick={() => setValue(value - 1)}>decrease</button>
+      <button className="count-btn">reset</button>
+      <button className="count-btn">increase</button>
+    </section>
     </>
   )
 }
