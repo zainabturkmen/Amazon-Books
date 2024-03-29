@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { useState } from "react";
 
 // Css
 import styleCss from "./index.css"
 import books from "./Books";
 import Book from "./Book";
+import Counter from "./Counter";
 
 const BookList = () => {
   return (
