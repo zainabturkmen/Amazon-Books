@@ -1,70 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
-    background: #c3c5c7;
-    color: #222;
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #c3c5c7;
+  color: #222;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-.booklist{
-    width: 90vw;
-    max-width: 1170px;
-    margin: 3rem auto;
-    display: grid;
-    gap: 1rem;
-    text-align: center;
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
-    .booklist{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.book{
-    background: #fff;
-    padding-top: 1.2em;
-    padding-bottom: .5em;
+.book {
+  background: #fff;
+  padding-top: 1.2em;
+  padding-bottom: 0.5em;
 }
 
-.book h1{
-    font-size: 1em;
-    margin-top: 0.5rem;
-    text-align: center;
+.book h1 {
+  font-size: 1em;
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
-.book h4{
-    color: red;
-    font-size: .6em;
-    letter-spacing: 0px;
-    margin-top: 1em;
+.book h4 {
+  color: red;
+  font-size: 0.6em;
+  letter-spacing: 0px;
+  margin-top: 1em;
 }
 
-
-.title{
-    text-align: center;
-    font-size: 3em;
-    margin-top: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+.title {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
-.btn{
-    padding: .4em 1em;
-    font-size: .8em;
-    color: white;
-    background-color: rgb(251, 121, 121);
-    border: none;
-    cursor: pointer;
-    margin: .5em;
-    border-radius: 30px
-};
-
+.btn {
+  padding: 0.4em 1em;
+  font-size: 0.8em;
+  color: white;
+  background-color: rgb(251, 121, 121);
+  border: none;
+  cursor: pointer;
+  margin: 0.5em;
+  border-radius: 30px;
+}
