@@ -8,7 +8,8 @@ const Counter = () => {
     if (value >= 1) {
       document.title = `New Message (${value})`
     }
-  })
+    console.log('hehehhe');
+  }, [])
 
   const reset = () => {
     setValue(0)
