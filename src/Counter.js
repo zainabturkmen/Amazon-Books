@@ -4,23 +4,25 @@ import { useState } from "react";
 const Counter = () => {
   const [value, setValue] = useState(0)
 
-    useEffect(() => {
+  useEffect(() => {
+    if (value >= 1) {
+      document.title = `New Message (${value})`
+    }
+  })
 
-    })
-    
   const reset = () => {
     setValue(0)
   }
 
-  return(
+  return (
     <>
-    <div className="counter">
-      <h2>Start Counting</h2>
-      <h1>{value}</h1>
-      <button className="count-btn" onClick={() => setValue(value - 1)}>decrease</button>
-      <button className="count-btn" onClick={reset}>reset</button>
-      <button className="count-btn" onClick={() => setValue(value + 1)}>increase</button>
-    </div>
+      <div className="counter">
+        <h2>Start Counting</h2>
+        <h1>{value}</h1>
+        <button className="count-btn" onClick={() => setValue(value - 1)}>decrease</button>
+        <button className="count-btn" onClick={reset}>reset</button>
+        <button className="count-btn" onClick={() => setValue(value + 1)}>increase</button>
+      </div>
     </>
   )
 };
