@@ -10,13 +10,13 @@ const Counter = () => {
 
   return(
     <>
-    <section className="counter">
+    <div className="counter">
       <h2>Start Counting</h2>
       <h1>{value}</h1>
       <button className="count-btn" onClick={() => setValue(value - 1)}>decrease</button>
       <button className="count-btn" onClick={reset}>reset</button>
       <button className="count-btn" onClick={() => setValue(value + 1)}>increase</button>
-    </section>
+    </div>
     </>
   )
 };
